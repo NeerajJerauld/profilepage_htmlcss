@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+    padding: 20px;
+}
+
+h2 {
+    color: aquamarine; /* Change the color of the heading "Education" */
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.education-line {
+    display: flex;
+    align-items: flex-start;
+    padding: 2px;
+}
+
+.bold {
+    /* font-weight: bold; */
+    font-size: 1em; /* Increase the font size of "Bachelor of Aeronautical Engineering" */
+    color: lightseagreen;
+    font-style: italic;
+}
+
+.education-date {
+    margin-right: 10px;
+    color: lightseagreen; /* Change the color of the date */
+    font-style: italic;
+}
+
+.education-location {
+    margin-left: auto;
+    color: lightseagreen;
+    font-style: italic;
+}
+
+.bullet-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bullet-list li {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 1em;
+    position: relative;
+    max-width: 38em; /* Adjust the maximum width as needed */
+    word-break: break-word;
+    margin-bottom: 5px;
+}
+
+.bullet-list li:before {
+    content: "";
+    position: absolute;
+    left: 0.25em;
+    top: 0.35em;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: lightseagreen; /* Change the color of the bullet circle */
+    border-radius: 50%;
+}
+
+.language-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.language-cell {
+    flex-basis: 48%;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+}
+.interests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.interest {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    max-width: 100px; /* Adjust the width as needed */
+    text-align: center;
+}
+.skills-section {
+    /* padding: 20px; */
+    background-color: #fff;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+}
+
